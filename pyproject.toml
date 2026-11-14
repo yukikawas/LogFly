@@ -4,3 +4,7 @@ requires = [
     "wheel"
 ]
 build-backend = "setuptools.build_meta"
+
+[tool.pytest.ini_options]
+# 让在仓库根目录直接运行 `pytest` 时只收集 tests/ 下的测试
+testpaths = ["tests"]

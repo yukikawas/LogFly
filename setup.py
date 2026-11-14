@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="logfly",
-    version="2.5",
+    version="2.6.0",
     author="Yuan Sui",
     author_email="orisui@icloud.com",
     description="A simple log tool by python",
@@ -22,6 +22,7 @@ setuptools.setup(
     ],
     package_dir={"": "src"},
     packages=setuptools.find_packages(where="src"),
-    python_requires=">=3.6",
-    install_requires=['colorama']
+    python_requires=">=3.7",
+    install_requires=['colorama'],
+    extras_require={"dev": ["pytest"]},
 )

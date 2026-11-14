@@ -1,9 +1,10 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
-*class java.lang.String
+*$py.class
 
-test_logfly.py
+# 2.x 遗留的临时测试脚本，已被 tests/ 取代
+/test_logfly.py
 
 # C extensions
 *.so
@@ -131,5 +132,11 @@ venv.bak/
 .dmypy.json
 dmypy.json
 
+# ruff
+.ruff_cache/
+
 # Pyre type checker
 .pyre
+
+# macOS
+.DS_Store
