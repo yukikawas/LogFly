@@ -133,14 +133,14 @@ def error(exp, linenum, mode='logfly'):
         message = (
             'ERROR occurred! at row ' + str(linenum) + '\r\n\r\n' + str(exp) + '\r\n\r\n'
             'please re-check it! \r\nAnd you can see the manual at '
-            'https://github.com/tinqlo/logfly '
+            'https://github.com/yukikawas/LogFly '
         )
         _note('error', message)
         return
     if mode == 'only print':
         print(
             'ERROR occurred!\r\n\r\n' + str(exp) + '\r\n\r\nplease re-check it! \r\n'
-            'And you can see the manual at https://github.com/tinqlo/logfly '
+            'And you can see the manual at https://github.com/yukikawas/LogFly '
         )
         return
     raise ParameterError(

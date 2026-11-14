@@ -13,7 +13,7 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://about.guki.me",
     project_urls={
-        "Github": "https://github.com/tinqlo/logfly",
+        "Github": "https://github.com/yukikawas/LogFly",
     },
     classifiers=[
         "Programming Language :: Python :: 3",
